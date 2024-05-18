@@ -4,24 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files. This app runs on a local version of a backend mimic. Run `npm run server` which will start the JSON backend on `http://localhost:5000/`.
 
-## Code scaffolding
+## Additional Information
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project was a tutorial followed by Traversy Media on YouTube from May 6, 2021 using the old Angular module system. I updated it's use to standalone components with imports. This is my first Angular project, and it has been a journey learning how these components work together, wouldn't necessarily recommend this is a starting project for Angular but it was a good peek into the things you can do with it.
